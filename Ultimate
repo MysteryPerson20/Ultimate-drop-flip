@@ -1,0 +1,13 @@
+-- Chat script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryPerson20/Chat-table-flip/main/Chat"))()
+
+-- Execute the first script instantly
+loadstring(game:HttpGet("https://pastebin.com/raw/yzz4pqLK"))()
+
+-- Execute the second script instantly
+loadstring(game:HttpGet("https://pastebin.com/raw/kSF1vCSR"))()
+
+-- Delay execution of the third script by 1 second
+delay(1, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryPerson20/Auto-press-table/main/Press%20table%20flip"))()
+end)
